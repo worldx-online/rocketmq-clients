@@ -54,3 +54,9 @@ golang/*.exe
 python/myvenv/
 python/__pycache__/
 python/dist
+
+# Common local build directories
+cpp/build/
+cpp/cmake-build-*/
+build/
+cmake-build-*/
