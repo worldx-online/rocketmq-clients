@@ -20,7 +20,7 @@
 #include <vector>
 
 #include "TopicRouteData.h"
-#include "absl/base/thread_annotations.h"
+#include "ThreadAnnotations.h"
 #include "absl/container/flat_hash_set.h"
 #include "absl/strings/string_view.h"
 #include "absl/synchronization/mutex.h"

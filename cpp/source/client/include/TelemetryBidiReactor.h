@@ -27,7 +27,7 @@
 
 #include "Client.h"
 #include "RpcClient.h"
-#include "absl/base/thread_annotations.h"
+#include "ThreadAnnotations.h"
 #include "absl/synchronization/mutex.h"
 #include "rocketmq/RocketMQ.h"
 

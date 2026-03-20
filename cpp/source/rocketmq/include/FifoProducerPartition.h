@@ -16,8 +16,6 @@
  */
 #pragma once
 
-#include "absl/base/internal/thread_annotations.h"
-
 #include <atomic>
 #include <list>
 #include <memory>
@@ -25,7 +23,7 @@
 
 #include "FifoContext.h"
 #include "ProducerImpl.h"
-#include "absl/base/thread_annotations.h"
+#include "ThreadAnnotations.h"
 #include "absl/synchronization/mutex.h"
 #include "rocketmq/SendCallback.h"
 #include "rocketmq/SendReceipt.h"

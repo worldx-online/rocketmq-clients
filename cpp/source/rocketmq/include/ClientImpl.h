@@ -34,6 +34,7 @@
 #include "RpcClient.h"
 #include "Session.h"
 #include "TelemetryBidiReactor.h"
+#include "ThreadAnnotations.h"
 #include "absl/strings/string_view.h"
 #include "rocketmq/MessageListener.h"
 #include "rocketmq/State.h"

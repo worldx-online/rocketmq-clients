@@ -1,0 +1,27 @@
+#pragma once
+
+#include "absl/base/thread_annotations.h"
+
+#ifndef LOCKS_EXCLUDED
+#define LOCKS_EXCLUDED(...) ABSL_LOCKS_EXCLUDED(__VA_ARGS__)
+#endif
+
+#ifndef GUARDED_BY
+#define GUARDED_BY(x) ABSL_GUARDED_BY(x)
+#endif
+
+#ifndef EXCLUSIVE_LOCKS_REQUIRED
+#define EXCLUSIVE_LOCKS_REQUIRED(...) ABSL_EXCLUSIVE_LOCKS_REQUIRED(__VA_ARGS__)
+#endif
+
+#ifndef SHARED_LOCKS_REQUIRED
+#define SHARED_LOCKS_REQUIRED(...) ABSL_SHARED_LOCKS_REQUIRED(__VA_ARGS__)
+#endif
+
+#ifndef ACQUIRED_AFTER
+#define ACQUIRED_AFTER(...) ABSL_ACQUIRED_AFTER(__VA_ARGS__)
+#endif
+
+#ifndef ACQUIRED_BEFORE
+#define ACQUIRED_BEFORE(...) ABSL_ACQUIRED_BEFORE(__VA_ARGS__)
+#endif

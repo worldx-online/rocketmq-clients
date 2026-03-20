@@ -23,7 +23,7 @@
 #include <thread>
 #include <vector>
 
-#include "absl/base/thread_annotations.h"
+#include "ThreadAnnotations.h"
 #include "absl/container/flat_hash_map.h"
 #include "absl/synchronization/mutex.h"
 #include "asio.hpp"

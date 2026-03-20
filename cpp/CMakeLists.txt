@@ -17,7 +17,9 @@ find_package(OpenSSL REQUIRED)
 add_subdirectory(proto)
 
 add_library(api INTERFACE)
-target_include_directories(api INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(api INTERFACE
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/source/base/include)
 
 add_subdirectory(third_party)
 
